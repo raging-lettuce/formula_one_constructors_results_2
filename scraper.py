@@ -8,7 +8,7 @@ try:
 except:
     pass
 
-for year in range(2011, 2012):
+for year in range(1950, 2014):
     url = 'http://www.formula1.com/results/team/%s/' % (year,)
 
     html = scraperwiki.scrape(url)
